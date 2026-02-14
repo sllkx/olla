@@ -3,7 +3,6 @@
     const targetUrl = new URL(src).searchParams.get('a');
 
     document.write(`
-        <script src="https://cdn.tailwindcss.com"></script>
         <div id="installBanner" class="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 opacity-0 pointer-events-none translate-y-4 transition-all duration-1000 ease-in-out">
             <button id="installBtn" class="flex items-center gap-3 px-6 py-3 pr-8 bg-black/70 backdrop-blur-md text-white rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.25)] border border-white/10 active:scale-95 transition-all">
                 <img src="https://cdn.jsdelivr.net/gh/sllkx/olla@main/ring128.png" class="w-8 h-8 rounded-full object-cover">
