@@ -103,7 +103,7 @@
                 outline: none;
                 transition: transform 0.1s ease;
             ">
-                <img src="https://cdn.jsdelivr.net/gh/sllkx/olla@main/ring128.png" style="
+                <img src="https://cdn.jsdelivr.net/gh/sllkx/olla@main/ring64.png" style="
                     width: ${iconSize};
                     height: ${iconSize};
                     border-radius: 50%;
