@@ -41,7 +41,7 @@
         shadow: isDark ? '0 10px 30px rgba(0,0,0,0.5)' : '0 10px 30px rgba(0,0,0,0.15)'
     };
 
-    let posCss = 'position: fixed; z-index: 9999; transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);';
+    let posCss = 'position: fixed; z-index: 2; transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);';
     let yHidden = '1.5rem'; 
     let yVisible = '0';
     let xTransform = '0';
